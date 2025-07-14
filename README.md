@@ -53,10 +53,13 @@ This project demonstrates how to build an **image recognition and classification
 Loaded automatically with:
 
 from tensorflow.keras.datasets import cifar10
+
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
 
 How to Run
+
+
 Open cifar10_classifier.ipynb in Google Colab
 
 Run all cells (training takes ~10-15 mins with GPU)
@@ -66,6 +69,7 @@ View accuracy graphs and test predictions
 Try changing the CNN architecture to improve results
 
 📊 Results
+
 Typical results after 10 epochs:
 
 📈 Training Accuracy: ~75%
