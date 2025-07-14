@@ -65,6 +65,7 @@ Run all cells (training takes ~10-15 mins with GPU)
 View accuracy graphs and test predictions
 
 Try changing the CNN architecture to improve results
+---
 
 📊 Results
 Typical results after 10 epochs:
@@ -74,8 +75,10 @@ Typical results after 10 epochs:
 📉 Validation Accuracy: ~70%
 
 Accuracy may vary based on number of epochs and model depth.
+---
 
 🛠 Future Improvements
+
 🔁 Add data augmentation for generalization
 
 📦 Use transfer learning (e.g. MobileNetV2)
@@ -83,12 +86,15 @@ Accuracy may vary based on number of epochs and model depth.
 🧠 Save and load model using .h5 or .keras format
 
 🎥 Extend to webcam input using OpenCV and Streamlit
+---
 
 🤝 Acknowledgements
+
 CIFAR-10 Dataset from Keras Datasets
 
 TensorFlow and Keras team for open-source deep learning libraries
 
 ---
 📜 License
+
 This project is licensed under the MIT License. Feel free to use, modify, and share.
